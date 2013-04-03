@@ -58,16 +58,20 @@ project root directory:
     [info] Resolving org.scala-tools.testing#test-interface;0.5 ...
     ...
     [info] Done updating.
-    [success] Total time: 1 s, completed 20.3.2013 13:33:36
+    [success] Total time: 2 s, completed Apr 3, 2013 1:01:07 PM
 
     $ sbt test
     [info] Loading project definition from [...]
     [info] Set current project to EnvCheck (in build file:[...])
+    [info] LibrarySpec:
+    [info] - Libraries should contain the books they've received
+    [info] - Books should always be sorted alphabetically
+    [info] - Libraries should index their books
     [info] ScalatestSpec:
     [info] This code
     [info] - should compile and run
-    [info] Passed: : Total 2, Failed 0, Errors 0, Passed 2, Skipped 0
-    [success] Total time: 2 s, completed 20.3.2013 13:35:29
+    [info] Passed: : Total 9, Failed 0, Errors 0, Passed 9, Skipped 0
+    [success] Total time: 12 s, completed Apr 3, 2013 1:02:04 PM
 
 The above build operations will likely take much longer on your computer the 
 first time you run them. For instance, SBT might need to download a bunch of 
