@@ -9,7 +9,7 @@ resolvers += "typesafe-repo" at "http://repo.typesafe.com/typesafe/repo"
 libraryDependencies ++= Seq(
 	"org.scalatest" % "scalatest_2.10" % "2.0.M6-SNAP9" % "test",
 	"junit" % "junit" % "4.11" % "test",
-	"com.novocode" % "junit-interface" % "0.10-M2" % "test"
+	"com.novocode" % "junit-interface" % "0.10-M3" % "test"
 )
 
 cleanFiles <+= baseDirectory { base => base / "target" }
