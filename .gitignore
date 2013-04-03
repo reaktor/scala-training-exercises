@@ -1,0 +1,14 @@
+bin/
+target/
+project/target/
+*.class
+*.log
+*.zip
+.cache
+.project
+.classpath
+.settings/
+.idea/
+.idea_modules/
+*.iml
+.DS_Store
